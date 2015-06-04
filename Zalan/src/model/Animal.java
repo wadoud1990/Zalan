@@ -9,8 +9,9 @@ package model;
  *
  * @author Admin
  */
-public class Animal {
-    private String name, type,poids;
+public  class Animal {
+    
+    private String name, type,poids,tail;
 
     public String getName() {
         return name;
@@ -35,6 +36,15 @@ public class Animal {
     public void setPoids(String poids) {
         this.poids = poids;
     }
+
+    public String getTail() {
+        return tail;
+    }
+
+    public void setTail(String tail) {
+        this.tail = tail;
+    }
+    
     
     
 }
